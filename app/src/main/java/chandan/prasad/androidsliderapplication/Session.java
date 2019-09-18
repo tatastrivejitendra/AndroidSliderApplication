@@ -27,7 +27,7 @@ public class Session {
         editor.commit();
     }
 
-    public boolean isFirstTimeLaunch() {
+    public boolean isFirstTimeLaunch(){
         return pref.getBoolean(IS_FIRST_TIME_LAUNCH, true);
     }
 
